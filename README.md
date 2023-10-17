@@ -1,8 +1,17 @@
-# React + Vite
+# E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an Responsive Dashboard  app to view graph and statistics details.
+The app is built with the mindset of user attractiveness and clean UI that would make it look and feel good while using it.
 
-Currently, two official plugins are available:
+## WEB LINK
+Live LINK click here :- https://dashboard25.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+
+## This Website is Built with:
+
+- React.JS
+- Tailwind CSS
+- Chart.js
+- Material UI
