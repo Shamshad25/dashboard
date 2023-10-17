@@ -57,7 +57,7 @@ const Sidebar = () => {
             </div>
             <FaAngleRight color="white" />
           </div>
-          <div className="flex justify-between items-center hover:bg-lightblue rounded-md">
+          <div className="flex justify-between items-center hover:bg-lightblue rounded-md p-1">
             <div className="flex">
               <div className="relative flex pr-2">
                 <div>
@@ -81,10 +81,13 @@ const Sidebar = () => {
             </div>
             <FaAngleRight color="white" />
           </div>
-          <div className="flex justify-between items-center hover:bg-lightblue rounded-md">
+          <div className="flex justify-between items-center hover:bg-lightblue rounded-md p-1">
             <div className="flex">
-              <div className="border-2 border-gray-300 rounded-md flex justify-center items-center m-2 p-1">
-                <BiSolidOffer color={"#fff"} />
+              <div className="pr-2">
+                <BiSolidOffer
+                  color={"#fff"}
+                  style={{ width: " 35px", height: "35px" }}
+                />
               </div>
               <li>
                 <a href="#">Promote</a>
@@ -92,10 +95,13 @@ const Sidebar = () => {
             </div>
             <FaAngleRight color="white" />
           </div>
-          <div className="flex justify-between items-center hover:bg-lightblue rounded-md">
+          <div className="flex justify-between items-center hover:bg-lightblue rounded-md p-1">
             <div className="flex">
-              <div className="border-2 border-gray-300 rounded-md flex justify-center items-center m-2 p-1">
-                <MdOutlineLiveHelp color={"#fff"} />
+              <div className="pr-2">
+                <MdOutlineLiveHelp
+                  color={"#fff"}
+                  style={{ width: " 35px", height: "35px" }}
+                />
               </div>
               <li>
                 <a href="#">Help</a>
