@@ -1,4 +1,4 @@
-# E-Commerce Website
+# Dashboard Website
 
 This is an Responsive Dashboard  app to view graph and statistics details.
 The app is built with the mindset of user attractiveness and clean UI that would make it look and feel good while using it.
