@@ -20,8 +20,13 @@ export const data = {
 
 export default function Donut() {
   return (
-    <div className="w-64 h-64 p-0 m-0">
+    <div className="w-64 h-64 p-0 m-0 relative">
       <Doughnut data={data} />
+      <div className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 text-center leading-none">
+        <p className="text-xl font-bold">65%</p>
+        <p className="text-xs font-bold">Total New</p>
+        <p className="text-xs font-bold">Customers</p>
+      </div>
     </div>
   );
 }

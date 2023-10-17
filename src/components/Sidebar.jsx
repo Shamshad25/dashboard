@@ -16,7 +16,7 @@ import { RiWallet3Line } from "react-icons/ri";
 const Sidebar = () => {
   return (
     <section className="h-full p-8 flex flex-col justufy-between">
-      <div className="h-4/5">
+      <div className="h-5/6">
         <div className="flex gap-2">
           <TokenOutlinedIcon
             style={{ color: "white", width: "40px", height: "40px" }}
@@ -105,7 +105,8 @@ const Sidebar = () => {
           </div>
         </ul>
       </div>
-      <div className="h-1/5 flex flex-col justify-center">
+
+      <div className="h-1/6 flex flex-col justify-end">
         <div className="flex justify-between items-center">
           <div className="flex justify-center gap-3">
             <div className="w-10 h-10 rounded-full flex items-center justify-center object-cover">

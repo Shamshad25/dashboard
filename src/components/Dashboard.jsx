@@ -172,7 +172,7 @@ const Dashboard = () => {
           <div className="flex justify-between px-4">
             <div className="leading-none">
               <h1 className="text-xl font-bold leading-none">Overview</h1>
-              <p className="text-gray-300">Monthly Earning</p>
+              <p className="text-gray-400">Monthly Earning</p>
             </div>
             <div className="bg-purple-100 rounded-md flex items-center gap-2 p-0 h-8 px-2">
               <p>Quarterly</p>
@@ -186,7 +186,7 @@ const Dashboard = () => {
         <div className="w-2/6 bg-white drop-shadow-md rounded-md ">
           <div className="w-full px-4 leading-none">
             <h1 className="text-xl font-bold">Customers</h1>
-            <p className="text-gray-300">Customers that buy products</p>
+            <p className="text-gray-400">Customers that buy products</p>
           </div>
           <div className="w-full h-64 flex justify-center">
             <Donut />
