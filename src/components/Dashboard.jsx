@@ -10,11 +10,12 @@ import { FaAngleDown, FaBagShopping } from "react-icons/fa6";
 import { RiWallet3Line } from "react-icons/ri";
 import Barchart from "./Barchart";
 import Donut from "./Donut";
+import Product from "./Product";
 
 const Dashboard = () => {
   return (
     <section className="h-full p-2 bg-gray-100">
-      <div className="flex justify-between">
+      <div className="flex justify-between leading-none">
         <h1 className="font-bold">
           Hello Shahrukh
           <span role="img" aria-label="sheep">
@@ -59,7 +60,7 @@ const Dashboard = () => {
               />
             </div>
           </div>
-          <div className="w-1/2">
+          <div className="w-1/2 leading-none">
             <p className="text-gray-400 text-md">Earning</p>
             <h1 className="text-2xl font-bold">$198k</h1>
             <p className="flex text-sm">
@@ -84,7 +85,7 @@ const Dashboard = () => {
               style={{ width: "40px", height: "40px", margin: "5px" }}
             />
           </div>
-          <div className="w-1/2">
+          <div className="w-1/2 leading-none">
             <p className="text-gray-400 text-md">Orders</p>
             <h1 className="text-2xl font-bold">$2.4k</h1>
             <p className="flex text-sm">
@@ -122,7 +123,7 @@ const Dashboard = () => {
               }}
             />
           </div>
-          <div className="w-1/2">
+          <div className="w-1/2 leading-none">
             <p className="text-gray-400 text-md">Balance</p>
             <h1 className="text-2xl font-bold">$2.4k</h1>
             <p className="flex text-sm">
@@ -147,7 +148,7 @@ const Dashboard = () => {
               style={{ width: "40px", height: "40px", margin: "5px" }}
             />
           </div>
-          <div className="w-1/2">
+          <div className="w-1/2 leading-none">
             <p className="text-gray-400 text-md">Orders</p>
             <h1 className="text-2xl font-bold">$89k</h1>
             <p className="flex text-sm">
@@ -169,8 +170,8 @@ const Dashboard = () => {
       <div className="w-full flex gap-4">
         <div className="w-4/6 bg-white drop-shadow-md rounded-md p-1">
           <div className="flex justify-between px-4">
-            <div className="leading-2">
-              <h1 className="text-2xl font-bold leading-none">Overview</h1>
+            <div className="leading-none">
+              <h1 className="text-xl font-bold leading-none">Overview</h1>
               <p className="text-gray-300">Monthly Earning</p>
             </div>
             <div className="bg-purple-100 rounded-md flex items-center gap-2 p-0 h-8 px-2">
@@ -178,21 +179,23 @@ const Dashboard = () => {
               <FaAngleDown color="black" />
             </div>
           </div>
-          <Barchart />
+          <div>
+            <Barchart />
+          </div>
         </div>
-        <div className="w-2/6 bg-white drop-shadow-md rounded-md flex flex-col justify-center items-center">
-          <div className="w-full px-4">
-            <h1 className="text-2xl font-bold leading-none">Customers</h1>
+        <div className="w-2/6 bg-white drop-shadow-md rounded-md ">
+          <div className="w-full px-4 leading-none">
+            <h1 className="text-xl font-bold">Customers</h1>
             <p className="text-gray-300">Customers that buy products</p>
           </div>
-          <div className="w-64 h-64">
+          <div className="w-full h-64 flex justify-center">
             <Donut />
           </div>
         </div>
       </div>
 
       <div className="w-full bg-white drop-shadow-md mt-2 rounded-md p-2">
-        yo
+        <Product />
       </div>
     </section>
   );

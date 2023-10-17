@@ -34,9 +34,10 @@ export default function Barchart() {
           data: [8, 6, 12, 9, 10, 4, 10, 12, 11, 9, 8, 10],
         },
       ]}
-      width={750}
+      width={800}
       height={300}
       colors={color}
+      margin={0}
     />
   );
 }
