@@ -28,4 +28,3 @@ Any advise for common problems or issues.
 ## Author
 
 Shamshad Alam  
-1298shamshad@gmail.com
