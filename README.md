@@ -1,8 +1,30 @@
-# React + Vite
+# Dashboard Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a Admin Dashboard app replica.
 
-Currently, two official plugins are available:
+## Description
+This is an Responsive Dashboard  app to view graph and statistics details.
+The app is built with the mindset of user attractiveness and clean UI that would make it look and feel good while using it.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Live App link
+
+To visit the website click here:- https://dashboard25.netlify.app/
+
+### Login Credentials
+ID: admin
+
+Password: admin123
+
+### Dependencies
+  - React.JS
+  - Tailwind CSS
+  - Chart.js
+  - Material UI
+
+## Help
+
+Any advise for common problems or issues.
+
+## Author
+
+Shamshad Alam  
