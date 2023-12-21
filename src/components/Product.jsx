@@ -6,7 +6,7 @@ import earth from "../assets/earth.jpg";
 const Product = () => {
   return (
     <>
-      <div className="flex justify-between items-center pb-4">
+      <div className="flex justify-between items-center pb-2">
         <h1 className="text-xl font-bold leading-none">Product Sell</h1>
         <div className="flex gap-2">
           <div className=" bg-blue-100 flex items-center px-1 rounded-md">
